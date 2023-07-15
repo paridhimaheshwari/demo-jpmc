@@ -1,0 +1,74 @@
+*,.about-container h1, .about-container h2{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+  }
+  
+  .about-heading-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin-top: 2rem;
+    background-color: #5F8D4E;
+    width: 100vw;
+    text-align: center;
+    color: white;
+  }
+  
+  .about-brief {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding : 2rem 0rem;
+    background-color: #f1eef3;
+    width: 100vw;
+  }
+  
+  .about-brief > div {
+    max-width: 110ch;
+  }
+  
+  .about-brief > div{
+    background-color: #A4BE7B;
+    color: white;
+    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 2rem;
+  }
+  
+  .about-brief h2{
+    text-align: center;
+  }
+  
+  .about-approach h2{
+    text-align: center;
+  }
+  
+  .about-approach{
+    margin: 2rem;
+  }
+  
+  .about-second{
+    display: flex;
+    flex-direction: row;
+    gap:.8rem;
+    justify-content: center;
+    background-color: #e9e4ec;
+    padding: 2.8rem
+  }
+  
+  .about-team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
